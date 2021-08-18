@@ -142,3 +142,9 @@ u_int64_t MessageQueue::locate_msg_offset_in_page(void *page_start_ptr, u_int64_
 
 ## 6 总结与感想
 复赛让我重新复习了一遍数据结构和操作系统，它所考验的知识是非常地基础又是非常地广！也让我体验到了Java的不足和C++的彪悍，让我意识到了双修的必要性。让我感受到设计决定高度，细节决定成败！
+
+## 编译项目
+
+```
+cmake . -DCMAKE_PREFIX_PATH=/usr/local/opt
+```

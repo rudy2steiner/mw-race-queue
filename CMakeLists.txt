@@ -28,6 +28,12 @@ add_library(queue_race SHARED ${SOURCE_FILES})
 #target_link_libraries(queue_race z)
 target_link_libraries(queue_race pthread)
 
+set(tbb_include /usr/local/opt/tbb/include/)
+set(tbb_lib /usr/local/opt/tbb/lib/)
+include_directories(${tbb_include})
+link_directories(${tbb_Lib})
+link_libraries(tdd)
+
 target_link_libraries(queue_race tbb)
 
 #target_link_libraries(queue_race profiler)
