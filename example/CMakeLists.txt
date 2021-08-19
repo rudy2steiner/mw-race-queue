@@ -1,3 +1,4 @@
+# 指定编译生成的可执行文件 以及编译需要的源文件
 add_executable(sample main2.cpp main.cpp main3.cpp)
 
 target_link_libraries(sample queue_race boost_filesystem boost_system)
