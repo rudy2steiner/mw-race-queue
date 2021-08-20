@@ -7,6 +7,7 @@
 
 #include <atomic>
 #include "semaphore.h"
+#include "spin.h"
 
 class BufferPool {
 public:

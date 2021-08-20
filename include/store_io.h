@@ -10,6 +10,7 @@
 #include <mutex>
 #include <atomic>
 #include "pthread.h"
+#include "spin.h"
 
 struct FlushRequestNode {
     void* buffer;
